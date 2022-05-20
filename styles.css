@@ -1,0 +1,76 @@
+/* Declare variables for website */
+/* Set properties for website elements using CSS selectors */
+
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+        }
+
+.left-logo{
+  display: flex;
+  justify-content: left;
+        }
+
+.right-logo{
+  display: flex;
+  justify-content: right;
+        }
+
+.new-bar {
+     margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.container-fluid {
+    padding-left: 3%;
+}
+
+.new-bar:hover{
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.25), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.new-bar:focus{
+    border: none
+}
+
+.new-bar:visited{
+    border: none
+}
+
+.btn-light {
+    background-color: whitesmoke;
+}
+
+.btn-light:hover {
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-color: lightgray;
+}
+
+.advanced-search-button{
+    color: white;
+    padding: 12px 28px;
+  border:2px blue;
+  background-color: dodgerblue;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.advanced-search-button:hover{
+    background-color: royalblue;
+}
